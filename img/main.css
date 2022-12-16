@@ -1,0 +1,109 @@
+/*animations*/
+@keyframes sizeanime {
+50% {font-size: 22px;}
+}
+/*end of animations*/
+@keyframes pink {
+ 
+  50% {color: rgb(250, 200, 200)}
+}
+
+body{
+	background-color: rgb(65,15,122);
+}
+p{
+	color: rgb(255,255,255);
+	font-size:18px;
+	padding: 18px;
+
+}
+.navibar {
+
+	background-color: rgb(40,10,70);
+	height: 40px;
+	width: 100%;
+}
+
+.navibar a {
+	color:rgb(255,255,255);
+	font-size: 20px;
+  	text-decoration: none;
+	padding: 10px 20px;
+}
+
+.navibar a:hover {
+	background-color: rgb(45,12,75);
+	color:rgb(250, 200, 200);
+	animation-name: sizeanime;
+  	animation-duration: 0.5s;
+
+}
+
+.navibar a.current {
+	background-color: rgb(35, 19, 54);
+	color:rgb(250, 200, 200);
+}
+
+
+
+
+.main {
+color: rgb(255,255,255);
+}
+
+.main h2 {
+font-size: 23px;
+text-align: right;
+max-width:%60;
+padding:10px 20px;
+}
+.main p {
+font-size: 21px;
+text-align: right;
+max-width:%60;
+padding:20px 20px;
+}
+
+.main dl,dt,dd {
+font-size: 21px;
+text-align: right;
+max-width:%60;
+padding:5px 20px;
+}
+
+.main img {
+float:left;
+width:450px;
+height:600px;
+}
+
+.main dd:hover,p:hover,h2:hover,h1{
+	animation-name: pink;
+  	animation-duration: 3s;
+}
+.main form {
+padding:10px 200px;
+}
+.ofone li {
+font-size: 21px;
+text-align: left;
+max-width:%60;
+padding:5px 20px;
+}
+.ofone li:hover{
+	animation-name: pink;
+  	animation-duration: 3s;
+}
+
+
+
+.myfooter {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color:rgb(238, 229, 233);
+  text-align: center;
+  left: 0;
+}
+
+
